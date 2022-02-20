@@ -60,7 +60,7 @@ p {
     font-size: 16px;
 }
 
-/* Background image */
+/* "Background image" */
 
 .hero {
     height: 800px;
@@ -69,7 +69,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    
 }
 
 /* Main content */
@@ -95,13 +94,59 @@ p {
     margin-right: 25px;
 }
 
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Online reputation management section */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+.online-reputation-management img {
+    max-height: 200px;
+}
 
+.online-reputation-management h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
+/* Social media marketing section */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h4 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* benefits aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,29 +163,14 @@ p {
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Note: font-size 1.17em is approximately equal to 18.72px
+   Heading font sizes use em measurement and can be converted
+   to pixels. Found from using Google dev tools. */
 .benefit-lead h5 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.benefit-brand h5 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h5 {
-    margin-bottom: 10px;
-    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 
 .benefit-lead img {
@@ -149,61 +179,40 @@ p {
     max-width: 150px;
 }
 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand h5 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18.72px;
+    font-weight: bold;
+}
+
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost h5 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h3 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h4 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
